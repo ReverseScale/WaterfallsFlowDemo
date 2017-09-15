@@ -28,18 +28,18 @@ Swift 实现的瀑布流展示，基于 CollectionView 实现，根据宽高数�
 ## Usage 使用方法
 ### viewDidLoad 中设置
 ```
-        //布局
-        let layout = RSCollectionView()
-        
-        //创建collectionView
-        let collectionView = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: layout)
-        view.addSubview(collectionView)
-        
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        collectionView.backgroundColor = UIColor.white
-        
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: shopID)
+//布局
+let layout = RSCollectionView()
+
+//创建collectionView
+let collectionView = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: layout)
+view.addSubview(collectionView)
+
+collectionView.dataSource = self
+collectionView.delegate = self
+collectionView.backgroundColor = UIColor.white
+
+collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: shopID)
 ```
 ### 延展方法实现协议
 ```
