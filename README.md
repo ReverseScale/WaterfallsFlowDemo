@@ -28,7 +28,7 @@ Swift 实现的瀑布流展示，基于 CollectionView 实现，根据宽高数�
 ## Usage 使用方法
 ### viewDidLoad 中设置
 ```
-//布局
+        //布局
         let layout = RSCollectionView()
         
         //创建collectionView
