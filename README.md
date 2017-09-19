@@ -2,7 +2,7 @@
 Swift 实现的瀑布流布局 Demo，由网络资料整理而成。
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
-![](https://img.shields.io/badge/language-Swift--C-orange.svg) 
+![](https://img.shields.io/badge/language-swift-orange.svg) 
 ![](https://img.shields.io/badge/download-205K-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
